@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
         # SET THESE
-        ACR_ADMIN_USERNAME: "unit10re"
+        ACR_ADMIN_USERNAME: "unit10reg"
         ACR_LOGIN_SERVER_URL: "unit10reg.azurecr.io"
         # SET THESE IN GITHUB
         ACR_ADMIN_PASSWORD: '${{ secrets.ACR_ADMIN_PASSWORD }}'

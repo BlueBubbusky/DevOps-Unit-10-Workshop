@@ -13,7 +13,7 @@ jobs:
         ACR_ADMIN_PASSWORD: '${{ secrets.ACR_ADMIN_PASSWORD }}'
     # DECIDE WHETHER YOU WANT A BRANCH CHECK - if so remove the other "if"
     # if: github.ref == 'refs/heads/main'
-    if: github.repository != 'BlueBubbusky/DevOps-Unit-10-Workshop'
+    if: github.repository != 'BlueBubbusk/DevOps-Unit-10-Workshop'
     steps:
       - name: test
         run: echo ${{ github.repository }}

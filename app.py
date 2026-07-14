@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 
 app = Flask(__name__)
 app.config.from_object(Config)
-
+app.logger.info("Response from endpoint: " + response.text)
 initialise_database(app)
 initialise_scheduled_jobs(app)
 
